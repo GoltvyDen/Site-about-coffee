@@ -80,6 +80,7 @@ body{
     color: #000000
 }
 .blog{
+    height: 945px;
     display: flex;
     flex-direction: column;
     width: auto;
@@ -97,10 +98,10 @@ body{
     margin-top: 60px;
     margin-bottom: 65px;
     margin-left: auto;
-    margin-right: auto;    
+    margin-right: auto;
 }
 .frame{
-    width: 365px;
+    width: 22%;
     height: 474px;
     padding: 20px;
     margin: 70px;
@@ -116,11 +117,12 @@ body{
 }
 .frame_img{
     display: flex;
-    margin: 24px 0px 24px 0px;
+    margin: 24px 24px 24px 24px;
     width: 325px;
     height: 216px;
 }
 .frame_text{
+    margin: 24px 24px 24px 24px;
     width: 325px;
     height: 108px;
     font-size: 18px;
