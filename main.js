@@ -14,35 +14,5 @@ window.addEventListener('DOMContentLoaded', () => {
         });
     });   
 });
-    //     class cards {
-//         constructor(tittle, src, alt, text) {
-//             this.tittle = tittle;
-//             this.src = src;
-//             this.alt = alt;
-//             this.text = text;   
-//         }
-//         render() {
-//             const elem = document.createElement('div');
-//             if (this.classes.length === 0) {
-//                 this.elem = 'menu__item';
-//                 elem.classList.add(this.elem);
-//             } else {
-//                 this.classes.forEach(className => elem.classList.add(className));
-//             }
-        
-//             elem.innerHTML = `
-//             <div class="frame">
-//                     <div class="frame_title">
-//                         <h3>${this.tittle}</h3>
-//                     </div>
-//                     <img class='frame_img' src=${this.src} alt=${this.alt}>  
-//                     <div class="frame_text">
-//                         <p>${this.text}</p>
-//                     </div>
-//                 </div>
-//             `;
-//             this.parent.append(elem);
-//         }
-//     }
 
 
